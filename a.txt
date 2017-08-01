@@ -2,4 +2,4 @@ height: '10px',
 width: '100%',
 display: 'block',
 position: 'absolute',
-bottom: '0',
+bottom: '0'
