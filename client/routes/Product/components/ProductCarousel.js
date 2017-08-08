@@ -6,10 +6,15 @@
   };
 
   return (
-    <div className="a">
+    <div key={product.productId} style={{
+      display: 'inline-block'
+      fewf ewf
+    }}>
       <e {...settings}>
         {productsToDisplay.map(product => (
-          <div key={product.productId} className="similarProduct">
+          <div key={product.productId} style={{
+            display: 'inline-block'
+          }}>
             <g product={product} />
           </div>
         ))}
